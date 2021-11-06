@@ -1,5 +1,5 @@
 {
-  "name": "github-gae-notify",
+  "name": "github-gcf-notify",
   "version": "0.1.0",
   "description": "",
   "main": "index.ts",
