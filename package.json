@@ -1,15 +1,23 @@
 {
   "name": "@abetomoki0420/github-gcf-notify",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "TBD",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "abetomoki0420",
   "license": "MIT",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/{GitHubのユーザーネーム}/{リポジトリ名}.git"
+  },
   "dependencies": {
     "@octokit/rest": "18.12.0",
     "typescript": "4.4.4"
